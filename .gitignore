@@ -1,0 +1,28 @@
+# Large, regenerable geospatial data (fetched via py3dep at runtime)
+data/raw/
+data/processed/
+
+# Raster files anywhere in the tree
+*.tif
+*.tiff
+*.img
+*.vrt
+
+# py3dep / HyRiver download cache
+cache/
+*.sqlite
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
